@@ -79,7 +79,9 @@
             document.getElementById("password").value = "";           
             alert("Website and password saved to local storage.");    
             refreshCredentialsTable();
-          } else {
+          } 
+          else 
+          {
             alert("Please fill in both website and password fields.");
           }
         });   
@@ -105,7 +107,8 @@
           var searchWebsite = document.getElementById("searchWebsite").value.toLowerCase();
           var credentials = JSON.parse(localStorage.getItem("credentials")) || [];
           var foundPassword = false;
-          credentials.forEach(function(credential) {
+          credentials.forEach(function(credential) 
+          {
           if (credential.website.toLowerCase() === searchWebsite) {
             alert("Password for " + credential.website + ": " + credential.password);
             foundPassword = true;
