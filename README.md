@@ -9,8 +9,8 @@ Lock-Smith is a simple web application that allows users to store and retrieve w
 
 ## Features
 
-- **Password Storage**: Users can input the website URL and password into the form and submit them to be stored locally.
-- **Password Retrieval**: Users can search for a password by entering the website URL in the search field and clicking the "Search" button.
+- **Password Storage**: Users can input the website name and password into the form and submit them to be stored locally.
+- **Password Retrieval**: Users can search for a password by entering the website name in the search field and clicking the "Search" button.
 - **Clear Saved Data**: Users can clear all saved passwords by clicking the "Clear Saved Data" button.
 
 ## Technologies Used
@@ -22,18 +22,14 @@ Lock-Smith is a simple web application that allows users to store and retrieve w
 ## Usage
 
 1. Open the `index.html` file in a web browser.
-2. Enter the website URL and password into the form fields.
+2. Enter the website name and password into the form fields.
 3. Click the "Submit" button to save the password.
-4. To search for a saved password, enter the website URL into the search field and click the "Search" button.
+4. To search for a saved password, enter the website name into the search field and click the "Search" button.
 5. To clear all saved passwords, click the "Clear Saved Data" button.
 
 ## Local Storage
 
 The passwords are stored locally using the `localStorage` API provided by modern web browsers. This means that the passwords are only accessible from the same browser and device where they were saved.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to Lock-Smith, feel free to fork this repository, make your changes, and submit a pull request.
 
 ## License
 
