@@ -21,7 +21,7 @@ Lock-Smith is a simple web application that allows users to store and retrieve w
 
 ## Usage
 
-1. Open the `index.html` file in a web browser.
+1. Open the `Lock smith.html` file in a web browser.
 2. Enter the website name and password into the form fields.
 3. Click the "Submit" button to save the password.
 4. To search for a saved password, enter the website name into the search field and click the "Search" button.
