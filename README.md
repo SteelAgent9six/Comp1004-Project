@@ -35,6 +35,3 @@ The passwords are stored locally using the `localStorage` API provided by modern
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-You can include this README in your GitHub repository along with your code to provide users with information about your Lock-Smith web application. Feel free to customize it further according to your preferences or add additional sections as needed.
